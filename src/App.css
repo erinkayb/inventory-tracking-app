@@ -18,15 +18,12 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  width: 50%;
+  margin: 50px auto;
+  padding: 0 5% 5% 5%;
+  border: 1px solid #e6e6e6;
+  -webkit-box-shadow: 2px -2px 34px 15px rgba(230,230,230,1);
+  -moz-box-shadow: 2px -2px 34px 15px rgba(230,230,230,1);
+  box-shadow: 2px -2px 34px 15px rgba(230,230,230,1);
 }
