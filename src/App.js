@@ -8,7 +8,7 @@ const products = [
   {
     name: "Blue T-Shirt",
     price: 21.99,
-    quantity: 3
+    quantity: 36
   },
   {
     name: "Pink Dress",
@@ -18,12 +18,12 @@ const products = [
   {
     name: "Red T-Shirt",
     price: 32.99,
-    quantity: 54
+    quantity: 4
   },
   {
     name: "Green Hoodie",
     price: 49.99,
-    quantity: 4
+    quantity: 40
   }
 ];
 

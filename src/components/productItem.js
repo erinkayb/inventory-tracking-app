@@ -55,7 +55,7 @@ class ProductItem extends Component {
               defaultValue={quantity}
               ref={quantityInput => (this.quantityInput = quantityInput)}
             />
-            <button>Save</button>
+            <button className='saveBtn'>Save</button>
           </form>
         ) : (
           <div className="grid">
@@ -69,7 +69,7 @@ class ProductItem extends Component {
                 <tr>
                   <td>{name}</td>
                   <td>{price}</td>
-                  <td style={{ color: quantity < 5 && "red" }}>{quantity}</td>
+                  <td style={{ color: quantity < 10 && "red" }}>{quantity}</td>
                 </tr>
               </tbody>
             </table>
